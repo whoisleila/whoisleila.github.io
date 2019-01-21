@@ -13,6 +13,7 @@ body {
 .header .title {
 	color: #3412A5;
 	position: absolute;
+	width: 100%;
 	text-align: center;
 	/* Starting position */
 	-moz-transform: translateX(100%);
