@@ -708,7 +708,8 @@ body.section-show .transition-mask:before{
 	padding-top:110px;
 	padding-bottom:0px;
 	/*background:#f7f4ea;*/
-	background:#F0F0F0;
+	/*background:#F0F0F0;*/
+	background:#fcf4ef;
 }
 .about-icons .section-header{
 	margin-bottom:80px;
@@ -730,7 +731,7 @@ body.section-show .transition-mask:before{
 	text-align:center;
 }
 .about-person-img > img{
-	max-width:100%;
+	max-width:90%;
 }
 .info-list2{
 	list-style:none;
@@ -1209,17 +1210,6 @@ body.section-show .transition-mask:before{
 	-ms-transform:rotate(-45deg);
 	-o-transform:rotate(-45deg);
 	transform:rotate(-45deg);
-}
-.service > .icon > img{
-/*	display:inline-block;
-	line-height:inherit;*/
-	/*height:inherit;*/
-	/*width:inherit;*/
-/*	-webkit-transform:rotate(-45deg);
-	-moz-transform:rotate(-45deg);
-	-ms-transform:rotate(-45deg);
-	-o-transform:rotate(-45deg);
-	transform:rotate(-45deg);*/
 }
 .service > .content > h4{
 	font-size:20px;
