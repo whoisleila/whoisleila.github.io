@@ -166,6 +166,16 @@ body.section-show .close-btn{
 	color:#8A8A8A;
 	font-size:16px;
 }
+
+.section-header h4{
+	font-size:20px;
+	letter-spacing:4px;
+	color:#333;
+	margin-top:0;
+	margin-bottom:10px;
+	font-weight:250;
+}
+
 #wrapper{
 	overflow-x:hidden;
 }
@@ -212,7 +222,14 @@ body.section-show .section.active{
 	/*font-family:'Playfair Display', serif;*/
 	font-family: Open Sans, sans-serif;
 	color:#999;
+	/*color:#afa199;*/
 }
+
+.footer > h4 > i{
+	height:5px;
+	font-weight:100;
+}
+
 .footer-social{
 	margin:0;
 	padding:0;
@@ -709,7 +726,8 @@ body.section-show .transition-mask:before{
 	padding-bottom:0px;
 	/*background:#f7f4ea;*/
 	/*background:#F0F0F0;*/
-	background:#fcf4ef;
+	/*background:#fcf4ef;*/
+	background:#f7f7f7;
 }
 .about-icons .section-header{
 	margin-bottom:80px;
@@ -1748,9 +1766,10 @@ body .symp-btn{
 #portfolio-filters > ul > li > a:hover,
 #portfolio-filters > ul > li > a.active{
 	color:#333;
+	font-weight:500;
 }
 #portfolio-filters > ul > li > a.active{
-	text-decoration:line-through;
+	/*text-decoration:line-through;*/
 }
 /*=======================================================================
 	Contact Section
@@ -1761,6 +1780,12 @@ body .symp-btn{
 .contact-section .section-header{
 	margin-bottom:60px;
 }
+.contact-block img{
+	height:360px;
+	width:360px;
+	/*text-align:center;*/
+}
+
 .form-control{
 	padding:10px;
 	height:auto;
@@ -1791,10 +1816,14 @@ body .symp-btn{
 	padding-top:80px;
 	padding-bottom:130px;
 }
+.single-work .single-page-youtube iframe{
+	height:385px;
+	width:640px;
+}
 .work-info{
 	list-style:none;
 	margin:0;
-	margin-top:50px;
+	margin-top:100px;
 }
 @media(min-width:992px){
 	.work-info{
@@ -1819,6 +1848,51 @@ body .symp-btn{
 }
 .work-info > li > p{
 	color:#777;
+}
+
+.work-info > li > a{
+	text-decoration:none;
+	height:30px;
+	width:30px;
+	line-height:26px;
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+	text-align:left;
+	color:#BBB;
+	background:#F0F0F0;
+	font-size:0;
+}
+.work-info > li > a > i{
+	*display:inline;
+	*zoom:1;
+	line-height:inherit;
+	width:inherit;
+	height:inherit;
+	vertical-align:middle;
+}
+.work-info > li > a > i:before{
+	font-size:14px;
+	line-height:1em;
+	vertical-align:middle;
+}
+.work-info > li > a:hover{
+	/*background:#B7A389;*/
+	color:#B7A389;
+}
+
+.work-info > li > a:hover > h4{
+	font-weight:400;
+}
+
+.work-info > li > a > h4{
+	font-size:16px;
+	letter-spacing:2px;
+	margin:0;
+	margin-bottom:10px;
+	text-transform:lowercase;
+	font-weight:250;
+	/*font-weight:bold;*/
 }
 
 .work-content > .block{
@@ -1915,7 +1989,7 @@ body .symp-btn{
 	.front-person-links > ul > li > a:after{
 		position:absolute;
 		left:0;
-		height:2px;
+		height:3px;
 		top:50%;
 		margin-top:-1px;
 		display:block;
@@ -1987,3 +2061,7 @@ body .symp-btn{
 		left:-40px;
 	}
 }
+
+/*=======================================================================
+	Random Stuff Leila Added
+=======================================================================*/

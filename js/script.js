@@ -71,9 +71,24 @@ $(function(){
 			section.addClass('active');
 		
 		}
+
+		if (section.attr('id') == 'portfolio'){
+			var groupName = $(this).data('group');
+			
+			var group = $('#portfolio-filters a[data-group="' + groupName + '"]');
+			
+			group.click();
+		}
 		
 	});
+
 	$('.close-btn').on('click', function(){
+		if ($('#portfolio').hasClass('active')){
+			
+			$('#portfolio-filters > ul > li > a').removeClass('active');
+		}
+
+
 		$('body').removeClass('section-show');
 		$('section.active').removeClass('active');
 	});
@@ -99,8 +114,11 @@ $(function(){
 		$this.find('.bar').css('width', percent + '%');
 	});
 	
+	/*=========================================================================
+		Include HTML
+	=========================================================================*/
 	
-	
+    $('.leilas-footer').load('html/footer.html');
 	
 	/*=========================================================================
 		Contact Form
