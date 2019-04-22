@@ -743,7 +743,18 @@ body.section-show .transition-mask:before{
 }
 .about-info > p{
 	line-height:1.8em;
-	margin-top:-.4em;
+	/*margin-top:-.4em;*/
+	text-align:justify;
+	margin-bottom:22px;
+}
+.about-info > p > a{
+	color:#777;
+	line-height:1.8em;
+	margin-bottom:22px;
+}
+.about-info > p > a:hover{
+	font-size:15px;
+	text-decoration: none;
 }
 .about-person-img{
 	text-align:center;
@@ -783,18 +794,22 @@ body.section-show .transition-mask:before{
 	/*line-height:1em;*/
 	margin:0;
 }
-.info-list > li > .inner > h4{
-	font-size:13px;
-	letter-spacing:4px;
-	margin-right:16px;
-	margin-bottom:8px;
-	display:block;
-	color:#333;
-}
-.info-list > li > .inner > p{
+.info-list2 > li > .inner > h4{
 	font-size:16px;
+	letter-spacing:2px;
+	text-transform:lowercase;
+	display:block;
+	color:#BBB;
+	margin:0;
+	margin-bottom:10px;
+}
+.info-list2 > li > .inner > p{
+	font-size:14px;
 	color:#777;
 	display:block;
+	line-height:1.8em;
+	margin-bottom:22px;
+
 }
 .funfacts-block{
 	padding-top:60px;
@@ -1217,6 +1232,9 @@ body.section-show .transition-mask:before{
 	line-height:1em;
 	vertical-align:middle;
 	font-size:45px;
+}
+.service > .icon > a:hover{
+	cursor:pointer;
 }
 .service > .icon > i{
 	display:inline-block;
@@ -1818,7 +1836,13 @@ body .symp-btn{
 }
 .single-work .single-page-youtube iframe{
 	height:385px;
-	width:640px;
+	width:100%;
+}
+.single-work .content > p {
+	text-align:justify;
+	line-height:1.8em;
+	color:#777;
+	margin-bottom:22px;
 }
 .work-info{
 	list-style:none;
