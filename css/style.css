@@ -2089,23 +2089,9 @@ body .symp-btn{
 /*=======================================================================
 	Random Stuff Leila Added
 =======================================================================*/
-.post > .content > .custom-header-1 p{
-	line-height:1em;
-	text-align:justify;
-	font-size: 17px;
-	margin-bottom: 20px;
-	color:#BBB;
-	font-family: Raleway, sans-serif;
-}
 
 .post > .content > p f{
 	line-height:1em;
-	/*margin-bottom: 10px;*/
-/*	text-align:justify;
-	font-size: 17px;
-	margin-bottom: 20px;
-	color:#777;
-	font-family: Raleway, sans-serif;*/
 }
 
 .post > .content > ul{
