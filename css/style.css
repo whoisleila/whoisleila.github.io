@@ -799,7 +799,7 @@ body.section-show .transition-mask:before{
 	letter-spacing:2px;
 	text-transform:lowercase;
 	display:block;
-	color:#BBB;
+	/*color:#BBB;*/
 	margin:0;
 	margin-bottom:10px;
 }
@@ -811,6 +811,7 @@ body.section-show .transition-mask:before{
 	margin-bottom:22px;
 
 }
+
 .funfacts-block{
 	padding-top:60px;
 	padding-bottom:20px;
