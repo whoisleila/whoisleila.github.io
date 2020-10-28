@@ -484,7 +484,9 @@ body.section-show .transition-mask:before{
 	height:500px;
 	overflow:hidden;
 /*	background:#F0F0F0;
-*/  background-image:url(../img/dreamy4.jpg);
+    background-image:url(../img/LEILA_GLASS-HIGHWAYS_COVER-ONLY.jpg);
+*/
+    background-image:url(../img/leila_0959_lr_comp_sq_lr_lr-01.jpeg);
 	background-size:cover;
 	position:relative;
 	z-index:15;
@@ -493,11 +495,11 @@ body.section-show .transition-mask:before{
 	transition:height .5s .3s ease, transform .5s .8s ease;
 	margin:200px auto;
 	margin-bottom:0;
-	-webkit-transform:rotate(-45deg);
-	-moz-transform:rotate(-45deg);
-	-ms-transform:rotate(-45deg);
-	-o-transform:rotate(-45deg);
-	transform:rotate(-45deg);
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	transform:rotate(45deg);
 	border-radius:0;
 }
 .front-person-img > img{
